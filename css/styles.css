@@ -1,0 +1,132 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  /*background-color: #EADEDA;*/
+  font-family: 'Lato', sans-serif;
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 2000px;
+}
+
+
+/*navbar */
+
+.page-title {
+  font-family: 'Gloria Hallelujah', cursive;
+  float: left;
+}
+
+.navbar {
+  position: relative;
+  min-height: 50px;
+  overflow: auto;
+  padding: 20px;
+}
+
+.navbar-right {
+  float: right;
+  position: relative;
+  top: 50px;
+}
+
+.navbar li {
+  display:inline;
+  margin: 10px;
+  padding: 10px;
+}
+
+.navbar ul {
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+
+/*hero image*/
+
+.hero {
+  background-image: url('http://ecx.images-amazon.com/images/I/9165ipLJgxL.jpg');
+  background-position: center;
+  height: 450px;
+}
+
+/*content*/
+
+.content {
+  margin-top: 20px;
+}
+
+.aboutme-text {
+  float:left;
+  width: 800px;
+  padding: 20px;
+}
+.social-icons {
+  margin-top: 30px;
+}
+
+.social-icon {
+  max-width: 30px;
+  margin-right: 10px;
+}
+
+.email-me {
+  margin-top: 30px;
+  background-color: #9B1D20;
+  color: #EADEDA;
+  border: 1px, solid;
+  border-color: #9B1D20;
+  border-radius: 4px;
+  display: inline-block;
+  padding: 6px 12px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+.galleria {
+  float:right;
+  width: 1140px;
+  padding-left: 50px;
+  padding-top: 20px;
+}
+
+.galleria-square {
+  width: 25%;
+  float: left;
+  overflow: auto;
+  /*height: 200px;*/
+}
+
+.galleria-image {
+  max-height: 200px;
+  max-width: 200px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.galleria-square:nth-child(4n+1){
+  clear: both;
+}
